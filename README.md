@@ -1,4 +1,4 @@
-# RTD_Readout_8chan
+# 8-channel RTD Readout Board with Serial Communication
 Design and implementation of an 8-channel RTD readout
 
 
