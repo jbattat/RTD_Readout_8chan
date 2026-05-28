@@ -1,6 +1,7 @@
 # 8-channel RTD Readout Board with Serial Communication
 Design and implementation of an 8-channel RTD readout
 
+![Alt text](images/Box.png)
 
 # To do:
 + describe the fix needed on the pcb (for v2). can you update the schematic and board layout files so that the next board submission will not need the manual fix.
