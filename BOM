@@ -1,8 +1,8 @@
-### Bill of Materials
+# Bill of Materials
 
 
 | Item | Qty | Description | Manufacturer |
-|---|---|---|---|
+| :--- | :--- | :--- | :--- |
 | 1 | 1 | 8 RTD Board PCB | --- |
 | 2 | 1 | RS232/RS485 to Ethernet Converter | Waveshare |
 | 3 | 1 | RS-232 to TTL UART Converter Module | --- |
