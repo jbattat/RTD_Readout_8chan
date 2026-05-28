@@ -10,8 +10,8 @@
 | 5 | 8 | PT100 RTD Temperature Sensor Amplifier MAX31865 | Adafruit | P3328D |
 | 6 | 1 | Teensy 4.0 | SparkFun | DEV-15583 |
 | 7 | 8 | RTD PT100 | DigiKey | 223-1822-ND |
-| 8 | 2 |  DB9 Male PCB Mount Connector | DigiKey | 19-88609-5005-ND |
-| 9 | 1 | Barrel Connector | --- | --- |
+| 8 | 2 | D9 Male PCB Mount Connector | DigiKey | 19-88609-5005-ND |
+| 9 | 1 | Panel Mount DC Barrel Jack | Adafruit | 163-4302-E |
 | 10 | 1 | 5V Wall Power Supply | --- | --- |
-| 11 | 1 | BUD box | --- | --- |
+| 11 | 1 | Metal box (modified with cutouts for jack and D9s) | BUD Industries | CU-471-ND |
 | 12 | 6 |  Wires | --- | --- |
