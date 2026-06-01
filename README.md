@@ -28,6 +28,16 @@ For PCB v2, one ground net connection is missing and must be manually wired. Fix
 
 See [BOM](Hardware/bom.md) for component details.
 
+# Assembly Instructions
+1. Upload [Teensy Code](Software/TeensyCode/EightRTDBoard_05052026.ino) to Teensy 4.0.
+2. Populate PCB.
+  1a. *If using v2 PCB, make sure you perform fix detailed in [Known Issue](#known-issue)*
+3. [Wire 6 pin molex connection](#wiring)
+  2a. [TTL-to-Serial to PCB Wiring](#ttl-to-serial-to-pcb)
+4. [Mount electronics in enclosure](#ttl-to-serial-to-PCB)
+5. Connect Waveshare Device to TTL-to-Serial converter via D9-to-D9 1 to 1 connector.
+6. Close enclosure.
+
 # Enclosure Layout
 ![Alt text](images/Box.png)
 Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
@@ -58,6 +68,11 @@ Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 | 6 | 4 | 2 | 4 | 8 |
 | 7 | 10 | 2 | 2 | 7 |
 | 8 | 3 | 2 | 1 | 6 |
+
+# Commands
+The teensy is programmed to transmit data when it receives the letter 't' as input. 
+
+# Potential Upgrades
 
 
 # To do:
