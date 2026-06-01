@@ -19,7 +19,7 @@ For PCB v2, one ground net connection is missing and must be manually wired. Fix
 | Component | Function |
 | :--- | :--- |
 | Teensy 4.0 | Microcontroller | 
-| Custom RTD PCB | allows communication between Teensy, 8 RTDs, and Waveshare | 
+| [Custom RTD PCB](Hardware/PCB v2/Fab Files) | allows communication between Teensy, 8 RTDs, and Waveshare | 
 | RTDs + thermocouples | 8 temperature sensors | 
 | TTL-to-Serial Converter | communication interface to Waveshare  | 
 | Waveshare | external controller | 
@@ -28,8 +28,9 @@ For PCB v2, one ground net connection is missing and must be manually wired. Fix
 
 See [BOM](Hardware/bom.md) for component details.
 
-#Enclosure Layout
+# Enclosure Layout
 ![Alt text](images/Box.png)
+Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 ## Front Panel
 | Component | Function |
 | :--- | :--- |
@@ -44,6 +45,20 @@ See [BOM](Hardware/bom.md) for component details.
 
 # Wiring
 ## TTL-to-Serial to PCB
+
+## RTD Connections
+
+| RTD | CS | D9 | D9 Pin to RTD+ | D9 Pin to RTD- |
+| :--- | :--- | :--- | :--- | :--- |
+| 1 | 7 | 1 | 5 | 9 |
+| 2 | 6 | 1 | 4 | 8 |
+| 3 | 8 | 1 | 2 | 7 |
+| 4 | 5 | 1 | 1 | 6 |
+| 5 | 9 | 2 | 5 | 9 |
+| 6 | 4 | 2 | 4 | 8 |
+| 7 | 10 | 2 | 2 | 7 |
+| 8 | 3 | 2 | 1 | 6 |
+
 
 # To do:
 + describe the fix needed on the pcb (for v2). can you update the schematic and board layout files so that the next board submission will not need the manual fix. 
