@@ -3,6 +3,18 @@ Design and implementation of an 8-channel RTD readout
 
 ![Alt text](images/Box.png)
 
+# Overview
+
+
+# System Diagram
+![Alt text](images/SystemDiagram.png)
+
+# Schematic 
+![Alt text](images/PCB_Schematic.png)
+
+# Known Issues
+
+
 # To do:
 + describe the fix needed on the pcb (for v2). can you update the schematic and board layout files so that the next board submission will not need the manual fix.
 + add photos to README
