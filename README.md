@@ -19,7 +19,7 @@ For PCB v2, one ground net connection is missing and must be manually wired. Fix
 | Component | Function |
 | :--- | :--- |
 | Teensy 4.0 | Microcontroller | 
-| [Custom RTD PCB](Hardware/PCB v2/Fab Files) | allows communication between Teensy, 8 RTDs, and Waveshare | 
+| Custom RTB PCB | allows communication between Teensy, 8 RTDs, and Waveshare, See: [Fab Files](Hardware/PCB%20v2/Fab%20Files/)| 
 | RTDs + thermocouples | 8 temperature sensors | 
 | TTL-to-Serial Converter | communication interface to Waveshare  | 
 | Waveshare | external controller | 
