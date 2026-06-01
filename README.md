@@ -26,7 +26,7 @@ For PCB v2, one ground net connection is missing and must be manually wired. Fix
 | Custom enclosure | houses all electronics and wiring | 
 | 5V power supply | powers entire system | 
 
-See [Link Text](Hardware/bom.md) for component details.
+See [BOM](Hardware/bom.md) for component details.
 
 #Enclosure Layout
 ![Alt text](images/Box.png)
