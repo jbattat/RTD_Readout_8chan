@@ -31,7 +31,7 @@ See [BOM](Hardware/bom.md) for component details.
 # Assembly Instructions
 1. Upload [Teensy Code](Software/TeensyCode/EightRTDBoard_05052026.ino) to Teensy 4.0.
 2. Populate PCB. *If using v2 PCB, make sure you perform fix detailed in [Known Issue](#known-issue)*
-5. [Wire 6 pin molex connection](#wiring). See: [TTL-to-Serial to PCB Wiring](#ttl-to-serial-to-pcb)
+5. [Wire 6 pin molex connection](#wiring). See: [TTL-to-Serial and 5V to PCB Wiring](#ttl-to-serial-and-5v-power-jack-to-pcb)
 6. [Mount electronics in enclosure](#ttl-to-serial-to-PCB)
 7. Connect Waveshare Device to TTL-to-Serial converter via D9-to-D9 1 to 1 connector.
 8. Close enclosure.
@@ -52,7 +52,7 @@ Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 | D9 #3 | thermocouple to RTDs 5-8 connection | 
 
 # Wiring
-## TTL-to-Serial to PCB
+## TTL-to-Serial and 5V Power Jack to PCB
 
 ## RTD Connections
 
