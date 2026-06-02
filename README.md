@@ -69,7 +69,12 @@ Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 | 8 | 3 | 2 | 1 | 6 |
 
 # Commands
-The teensy is programmed to transmit temperature data to the Waveshare for all 8 RTDs when it receives the letter 't' as input and to transmit information helpful for debugging (resistance values) to the Teensy's serial monitor when the letter 'd' is received. 
+
+| Command | Function |
+| :--- | :--- |
+| t | Read all 8 RTD channels and transmit temperature data to the Waveshare |
+| d | For debugging. Sends measured resistance values for all 8 RTDs to the serial monitor of the teensy. |
+
 
 # Potential Upgrades
 Potential upgrades include:
