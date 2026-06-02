@@ -1,6 +1,19 @@
 # 8-channel RTD Readout Board with Serial Communication
 Design and implementation of an 8-channel RTD readout
 
+# Overview
+This project is an 8-channel temperature readout system designed around a teensy 4.0 microcontroller. The custom PCB connects the 8 RTD boards to two D9 connectors, which each route to four temperature sensors each.
+
+The teensy controls communication with the 8 RTD chips, requesting resistance values and calculating temperature values when given the command 't'. A six pin Molex connector on the PCB is wired to an external 5V power supply and a TTL-to-serial converter. The 5V power supply powers the entire board, and the TTL-to-serial converter connects to a Waveshare device. 
+
+The communicaton is:
+1. The Waveshare sends a [command](#commands) to the teensy.
+2. The Teensy requests a reading from all 8 RTD boards.
+3. The Teensy calculates temperature from the readings and sends the data back to the Waveshare.
+4. The Waveshare sends the data to the host computer.
+
+This system allows for remote monitoring of 8 temperature channels.
+
 # System Diagram
 ![Alt text](images/SystemDiagram.png)
 
@@ -51,13 +64,17 @@ Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 | D9 #2 | thermocouple to RTDs 1-4 connection | 
 | D9 #3 | thermocouple to RTDs 5-8 connection | 
 
+# Teensy Pinout
+![Alt text](images/TeensyPinout.png)
+
+
 # Wiring
 ## TTL-to-Serial and 5V Power Jack to PCB
 ![Alt text](images/TTLand5VtoPCB.png)
 
 ## RTD Connections
 
-| RTD | CS | D9 | D9 Pin to RTD+ | D9 Pin to RTD- |
+| RTD | CS Pin | D9 | D9 Pin to RTD+ | D9 Pin to RTD- |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | 7 | 1 | 5 | 9 |
 | 2 | 6 | 1 | 4 | 8 |
@@ -79,4 +96,4 @@ Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 # Potential Upgrades
 Potential upgrades include:
 1. updating the teensy code with commands to request the temperature of a single RTD
-2. 
+2. fix the missing ground connection in v3 of the PCB.
