@@ -95,5 +95,8 @@ Enclosure has cutouts for 3 D9 connections and for the 5V Power Jack.
 
 # Potential Upgrades
 Potential upgrades include:
-1. updating the teensy code with commands to request the temperature of a single RTD
-2. fix the missing ground connection in v3 of the PCB.
+1. Updating the teensy code with commands to request the temperature of a single RTD.
+2. Fix the missing ground connection in v3 of the PCB.
+3. Update the python code with a comprehensive GUI, including real time plots of the temperature data.
+4. Add a debugging case across the serial connection so the resistance data is available outside of the Teensy serial monitor.
+5. Create an alerting system for failed serial connection or disconnected sensors.
